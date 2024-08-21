@@ -1,0 +1,68 @@
+{
+    "title": "Gitbook使用教程",
+    "author": "yuanwei",
+    "description": "介绍Gitbook的安装、使用，以及基础的markdown语法",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "plugins": [
+        "-lunr",
+        "-highlight",
+        "-search",
+        
+        "github",
+        "sidebar-style",
+        "favicon",
+        "search-pro",
+        "splitter",
+        "code",
+        "alerts",
+        "flexible-alerts",
+        "auto-scroll-table",
+        "expandable-chapters-small",
+        "hide-element",
+        "tbfed-pagefooter",
+        "prism",
+        "anchor-navigation-ex"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/snkyw1"
+        },
+        "favicon": {
+            "shortcut": "/images/favicon.ico",
+            "bookmark": "/images/favicon.ico",
+            "appleTouch": "/images/favicon.ico",
+            "appleTouchMore": {
+                "120x120": "/images/favicon.ico",
+                "180x180": "/images/favicon.ico"
+            }
+        },
+        "hide-element": {
+            "elements": [
+                ".gitbook-link"
+            ]
+        },
+        "flexible-alerts": {
+            "style": "callout",
+            "comment": {
+                "label": "Comment",
+                "icon": "fa fa-comments",
+                "className": "info"
+            }
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-okaidia.css"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright ©yuanwei",
+            "modify_label": "更新时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sidebar-style": {
+            "title": "Gitbook 文档",
+            "author": ""
+        }
+    }
+}
